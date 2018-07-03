@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quest</string>
+    <string name="todo">TODO</string>
+
+    <string name="ok">OK</string>
+
+    <string name="ad_exit_title">Выйти из приложения?</string>
+    <string name="ad_menu_title">Выйти в меню?</string>
+    <string name="ad_exit_yes">Да</string>
+    <string name="ad_exit_no">Нет</string>
+
+    <string name="ask_continue">Продолжить</string>
+    <string name="ask_start">Начать с начала</string>
+    <string name="ask_menu">Меню</string>
+
+    <string name="ask_reset">Текущий прогресс будет утерян. Вы уверены ?</string>
+
+</resources>

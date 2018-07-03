@@ -1,0 +1,29 @@
+<menu id="menu">
+
+    <state id="menu" bg="launch">
+        <image>img2</image>
+        <text a="c">debug</text>
+        <button next="quests">Квесты</button>
+        <button next="info">Информация</button>
+        <button next="exit">Выход</button>
+    </state>
+
+    <state id="quests" bg="launch">
+        <image>video</image>
+        <button next="q1-1">Треш. Начало.</button>
+        <button next="q2-1">Треш. Прозрение.</button>
+        <button next="menu">Меню</button>
+    </state>
+
+    <state id="info" bg="black">
+        <image>img8</image>
+        <text><![CDATA[Это <i>тестовый</i> проект, за <u>сохранность</u> <b>Вашей</b> психики ответственности не несём.<br/><br/>Удачи!]]></text>
+        <button next="menu">Меню</button>
+    </state>
+
+    <state id="exit" style="quests">
+        <header />
+    </state>
+
+
+</menu>
