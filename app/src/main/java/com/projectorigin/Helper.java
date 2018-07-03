@@ -89,7 +89,7 @@ class Helper {
             Log.d("debug", "InterruptedException on sleep.");
         }
     }
-
+    /* HELP ME */
     public Map<String, State> getStates(Activity act, String title){
         final Helper hlp = new Helper(act);
         int xmlId = hlp.getXmlByName(title);
